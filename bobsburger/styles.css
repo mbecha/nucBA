@@ -434,7 +434,7 @@ background:transparent;
     .flex-container {
 
         flex-direction: column;
-        width: 50%;
+        width: 100%;
         height: auto;
         border:none;
 
