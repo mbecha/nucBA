@@ -1,0 +1,154 @@
+@font-face {
+    font-family: "BullpenHV";
+    src: url("bullpen hv it.ttf");
+  }
+html, body {
+
+    background:#a18973;
+    margin:0;
+    padding:0;
+    color: black;
+    font-family: "BullpenHV";
+    background-image: url("loginchiquito.jpg");
+    
+
+}
+
+.container {
+
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.content {
+
+width: 100%;
+height: 100%;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.login_input {
+
+    width: 75%;
+    max-width: 600px;
+
+}
+
+.login_input p {
+
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login_input p label {
+
+    padding-bottom:10px;
+
+}
+
+.login_input p input {
+
+    height: 40px;
+    border: none;
+    padding: 0 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: black;
+   
+    letter-spacing: .9px;
+}
+
+.login_input p button {
+
+width: 100%;
+height: 45px;
+background: black;
+color: white;
+border-radius: 10px;
+border: none;
+font-size: 16px;
+font-weight: bolder;
+letter-spacing:.7px;
+cursor: pointer;
+font-family: 'Carter One', cursive;
+
+}
+
+.login_input p button:hover {
+
+opacity: 0.9;
+
+}
+
+a {
+margin-top: 10px;
+font-size: 14px;
+color:black;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+text-decoration: none;
+}
+
+a:hover{
+
+    text-decoration:underline;
+}
+
+@media screen and (min-width: 1000px) {
+
+
+    .login_img {
+
+    visibility: visible;
+    background-image: url("loginchiquito.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+
+
+    .login_input {
+
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .login_input p {
+
+        width:70%;
+        margin:10px 0;
+
+    }
+
+    .content {
+
+        width: 50%;
+        background: white;
+        height: 60%;
+        flex-direction: row;
+        border-radius: 20px;
+        box-shadow: 0 0 26px -5px;
+    }
+    body {
+
+        background-image: url("loginchiquito.jpg");
+        background-size: cover;
+    }
+
+}
