@@ -4,12 +4,16 @@
   }
 html, body {
 
-    background:#a18973;
+    background:rgba(171,230,95,1);
     margin:0;
     padding:0;
     color: black;
     font-family: "BullpenHV";
-    background-image: url("loginchiquito.jpg");
+    background-size: 35%;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-image: url("backgroundbob21.png");
+    
     
 
 }
@@ -29,7 +33,7 @@ html, body {
 .content {
 
 width: 100%;
-height: 100%;
+height: 50%;
 display:flex;
 flex-direction: column;
 justify-content: center;
@@ -40,6 +44,7 @@ align-items: center;
 
     width: 75%;
     max-width: 600px;
+    font-family: 'Carter One', cursive;
 
 }
 
@@ -72,8 +77,8 @@ align-items: center;
 
 width: 100%;
 height: 45px;
-background: black;
-color: white;
+background: #f3f162;
+color: black;
 border-radius: 10px;
 border: none;
 font-size: 16px;
@@ -87,6 +92,8 @@ font-family: 'Carter One', cursive;
 .login_input p button:hover {
 
 opacity: 0.9;
+background:black;
+color:#f3f162;
 
 }
 
@@ -110,12 +117,12 @@ a:hover{
     .login_img {
 
     visibility: visible;
-    background-image: url("loginchiquito.jpg");
+    background-image: url("backgroundbob.jpg");
     width: 100%;
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 80% 70%;
     }
 
 
@@ -147,8 +154,10 @@ a:hover{
     }
     body {
 
-        background-image: url("loginchiquito.jpg");
-        background-size: cover;
+        /* background-image: url("backgroundbob.jpg"); */
+       
+        background: rgb(45,94,157);
+        background: linear-gradient(90deg, rgba(45,94,157,1) 0%, rgba(171,230,95,1) 50%, rgba(185,158,88,1) 100%);
     }
 
 }

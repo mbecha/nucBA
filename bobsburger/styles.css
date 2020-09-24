@@ -1,7 +1,11 @@
 body, html {
     margin:0;
     padding:0;
-
+    scroll-behavior: smooth;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .banner {
@@ -356,7 +360,7 @@ background:transparent;
     
     .banner {
 
-        background-image: url("imgs/bb_vbanner.png");
+        background-image: url("imgs/bb_vbanner.PNG");
         background-repeat: no-repeat;
         background-position: center;
         margin-bottom: -20px;
@@ -637,4 +641,41 @@ background:transparent;
     }
 
     
+}
+
+
+@media screen and (min-width: 1300px) {
+
+
+    .burger_img {
+
+  
+        top:230px;
+        left:70px;
+    }
+
+
+
+    .personajes {
+    
+        width: 100%;
+
+}
+
+.flex-container {
+
+  
+    height: 850px;
+  
+}
+
+
+
+
+
+
+.flex-item{
+
+height: 790px;
+}
 }
