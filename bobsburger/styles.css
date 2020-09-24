@@ -2,10 +2,7 @@ body, html {
     margin:0;
     padding:0;
     scroll-behavior: smooth;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+
 }
 
 .banner {
@@ -51,6 +48,7 @@ a{
     text-decoration: none;
     font-weight: bold;
     background:#fae22a;
+
 }
 
 a:active, a:hover {
@@ -356,7 +354,7 @@ background:transparent;
     
         }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px){
     
     .banner {
 
@@ -642,7 +640,7 @@ background:transparent;
 
     
 }
-
+/* 
 
 @media screen and (min-width: 1300px) {
 
@@ -677,5 +675,5 @@ background:transparent;
 .flex-item{
 
 height: 790px;
-}
+} */
 }
